@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+  margin: 0px;
+  padding:0%;
+  height:auto;
+ 
+}
+
+body {
+  width:100%;
+  height:100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  body {
+    height: 100%;
+  }
+  .section {
+    height:90%;
+    margin:0px;
+    background-color: aqua;
+    font-size: 0.8em;
+  }
+
+  .puzzleWord h1 {
+    padding:0.1%;
+    margin:0.1%;
+    
+  }
+
+  .puzzleWord {
+    width: 300px;
+    height: 100px;
+    display:block;
+    word-spacing: 0%;
+  
+  margin: 1% auto;
+  padding: 0.5%;
+  
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  background-image: url('./bk-1.png');
+
+}
+
+.gameSection {
+  width: 20%;
+  height:100%;
+  text-align: center;
+  border: 1px solid black;
+  
+ color:rgb(255, 255, 255);
+}
+
+.puzzleSection {
+  width: 100%;
+  height:100%;
+  display:flex;
+ align-items: stretch;
+
+}
+
+.gamepSection {
+  width: 20%;
+  padding: 1%;
+  height:auto;
+  text-align: center;
+  border-right: 2px solid black;
+  
+ color:rgb(223, 224, 247);
+ text-shadow: 2px 1px 2px rgb(4, 29, 117);
+}
+
+.section {
+  width:60%;
+  height:auto;
+  border: 1px solid black;
+ 
+ color:rgb(255, 255, 255);
+  
+}
+
+
+.wordSection {
+width:100%;
+text-align: center;
+vertical-align:middle;
+background-color: rgba(105, 50, 113, 0.838);
+height:350px;
+padding-top: 10%;
+color:rgb(255, 255, 255);
+font-size: larger;
+font-weight: bold;
+text-shadow: 2px 1px 2px rgb(41, 41, 43);
+}
+
+.guessSection {
+  width:100%;
+  margin:0px;
+  padding-top: 1%;
+  border-top: 3px solid black;
+  background-color: rgba(52, 61, 122, 0.838);
+  height:auto;
+  color:rgb(203, 203, 203);
+  font-size: larger;
+  font-weight: bold;
+  text-shadow: 2px 1px 2px rgb(41, 41, 43);
+
+  }
+
+  .gamewSection {
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+    border-left: 2px solid black;
+   
+   color:rgb(223, 224, 247);
+   text-shadow: 2px 1px 2px rgb(9, 9, 210);
+  }
+.puzzleWord{
+  width: 35%;
+  background-color: rgba(72, 72, 167, 0.856);
+  margin: 10px auto;
+  padding: 2%;
+  border: 2px solid rgb(109, 87, 248);
+  text-align: center;
+  -webkit-box-shadow:  1px 1px 5px #333;
+  -moz-box-shadow:     1px 1px 5px #333;
+  box-shadow:          1px 1px 5px #333;
+  
+}
+
+.puzzleWord h1 {
+  font-size: 1.9em;
+}
+
+  .puzzle-btn {
+    width:90%;
+    height:45px;
+    margin: 10px auto;
+    font: 15px Arial, sans-serif;
+    border: 5px outset rgb(191, 202, 246);
+    color: purple;
+    font-weight: bold;
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow:    inset 1px 1px 10px #333;
+    box-shadow:         inset 1px 1px 10px #333;
+  }
+
+  .puzzle-btn:active {
+    background-color: rgb(134, 3, 146);
+    border: 5px inset black;
+    border-radius: 10px;
+    color:whitesmoke;
+    font-weight: bold;
+  }
+
+  .puzzle-btn:hover {
+    background-color: rgb(134, 3, 146);
+    color:white;
+  }
+
+  .input {
+    width:88%;
+    height:35px;
+    padding:1%;
+    margin:auto 15px;
+    border:3px groove rgb(23, 16, 113);
+
+  }
